@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Company Name · Official Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    body {
+      color: #1a1a1a;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    header .logo {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    header nav a {
+      margin-left: 32px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    header nav a:hover {
+      color: #0052ff;
+    }
+
+    .hero {
+      padding: 120px 80px;
+      background: linear-gradient(180deg, #f7f9fc, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 600;
+      max-width: 720px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      margin-top: 24px;
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+    }
+
+    .hero .cta {
+      margin-top: 40px;
+    }
+
+    .hero .cta a {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #0052ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .hero .cta a:hover {
+      background-color: #003ecc;
+    }
+
+    .section {
+      padding: 100px 80px;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .section p {
+      color: #666;
+      max-width: 720px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .feature {
+      padding: 32px;
+      border: 1px solid #eee;
+      border-radius: 12px;
+    }
+
+    .feature h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .feature p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      padding: 40px 80px;
+      border-top: 1px solid #eee;
+      font-size: 14px;
+      color: #999;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer a {
+      color: #999;
+      text-decoration: none;
+      margin-left: 24px;
+    }
+
+    footer a:hover {
+      color: #333;
+    }
+
+    @media (max-width: 900px) {
+      header, .hero, .section, footer {
+        padding: 40px 24px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">COMPANY</div>
+    <nav>
+      <a href="#">产品</a>
+      <a href="#">解决方案</a>
+      <a href="#">关于我们</a>
+      <a href="#">联系我们</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>构建下一代数字化体验，让复杂问题回归简单</h1>
+    <p>
+      我们专注于高质量产品设计与技术实现，帮助企业在不确定的世界中，做出更清晰、更理性的决策。
+    </p>
+    <div class="cta">
+      <a href="#">立即开始</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>为什么选择我们</h2>
+    <p>
+      从第一性原理出发，我们不堆功能，不讲空话，只解决真正重要的问题。
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>专业可靠</h3>
+        <p>多年行业经验沉淀，架构稳定，可持续演进。</p>
+      </div>
+      <div class="feature">
+        <h3>设计驱动</h3>
+        <p>以用户体验为核心，让产品自然、克制、有力量。</p>
+      </div>
+      <div class="feature">
+        <h3>安全合规</h3>
+        <p>从底层到流程，全面考虑安全、隐私与合规要求。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2025 Company Name. All rights reserved.</div>
+    <div>
+      <a href="#">隐私政策</a>
+      <a href="#">服务条款</a>
+    </div>
+  </footer>
+
+</body>
+</html>
